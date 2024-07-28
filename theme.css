@@ -92,6 +92,14 @@ a,
   text-decoration: underline;
 }
 
+#top-bar a {
+  border: none;
+}
+
+#search-top-box {
+  margin-bottom: 5px;
+}
+
 #search-top-box-form {
   display: flex;
   font-size: 18px;
