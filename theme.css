@@ -28,6 +28,10 @@
   font-size: 24px;
 }
 
+html {
+  background-color: #aaaaaa;
+}
+
 #skrollr-body {
   width: 900px;
   border: 1px solid black;
@@ -37,8 +41,8 @@
   margin-bottom: 150px;
 }
 
-html {
-  background-color: #aaaaaa;
+#container {
+  padding: 10px;
 }
 
 #content-wrap {
@@ -48,4 +52,9 @@ html {
 #side-bar {
   flex-direction: column;
   display: flex;
+  border: 1px solid black;
+}
+
+a {
+  color: #b01;
 }
