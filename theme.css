@@ -238,8 +238,8 @@ a,
 }
 
 .yui-navset li,
-.yui-navset a,
-.yui-navset em {
+:root .yui-navset a,
+:root .yui-navset em {
   border: none;
 }
 
