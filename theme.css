@@ -132,3 +132,12 @@ a {
   margin-left: 5px;
   border-right: 1px solid black;
 }
+
+.columns {
+  display: flex;
+  justify-content: stretch;
+}
+
+.columns > div {
+  border: 1px solid black;
+}
