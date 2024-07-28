@@ -108,6 +108,7 @@ a,
 #search-top-box-form input {
   background-color: white;
   border: 1px solid black;
+  margin-right: 10px;
 }
 
 #top-bar {
