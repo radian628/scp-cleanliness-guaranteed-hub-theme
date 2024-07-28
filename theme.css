@@ -68,11 +68,11 @@ a {
 }
 
 #top-bar {
-  display: flex;
   font-size: 18px;
 }
 
 #top-bar .top-bar ul {
+  display: flex;
   list-style: none;
 }
 
