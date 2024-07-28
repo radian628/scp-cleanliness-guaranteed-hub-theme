@@ -141,3 +141,8 @@ a {
 .columns > div {
   border: 1px solid black;
 }
+
+.hovertip {
+  width: 20%;
+  background-color: white;
+}
