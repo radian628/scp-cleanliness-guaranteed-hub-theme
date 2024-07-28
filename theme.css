@@ -43,6 +43,14 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  background: none;
+}
+
+.close-menu {
+  display: none;
+}
+
 #skrollr-body {
   width: 900px;
   border: 1px solid black;
