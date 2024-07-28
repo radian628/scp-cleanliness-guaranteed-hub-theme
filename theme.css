@@ -24,6 +24,7 @@
   color: #00000000;
   font-size: 48px;
   height: 1lh;
+  background-image: url("https://scp-sandbox-3.wdfiles.com/local--files/theme%3Acleaning-services/logo.png");
 }
 #header h2 {
   color: #00000000;
@@ -78,7 +79,7 @@ a {
 }
 
 #top-bar .top-bar ul li {
-  margin-right: 5px;
+  padding-right: 5px;
   margin-left: 5px;
   border-right: 1px solid black;
 }
@@ -96,7 +97,7 @@ a {
 }
 
 #account-options ul li {
-  margin-right: 5px;
+  padding-right: 5px;
   margin-left: 5px;
   border-right: 1px solid black;
 }
