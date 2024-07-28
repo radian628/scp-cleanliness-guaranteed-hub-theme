@@ -110,7 +110,7 @@ a {
   border-right: 1px solid black;
 }
 
-#top-bar .top-bar ul li:nth-child(1) {
+#top-bar .top-bar ul:nth-child(1) {
   margin-left: 0;
 }
 
