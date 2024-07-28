@@ -37,11 +37,15 @@
   margin-bottom: 150px;
 }
 
-#html-body {
+html {
   background-color: #aaaaaa;
-  width: 100%;
 }
 
 #content-wrap {
+  display: flex;
+}
+
+#side-bar {
+  flex-direction: column;
   display: flex;
 }
