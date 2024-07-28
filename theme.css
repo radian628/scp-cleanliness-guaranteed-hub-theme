@@ -34,10 +34,12 @@
   background-color: #cccccc;
   margin: auto;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 #html-body {
   background-color: #aaaaaa;
+  width: 100%;
 }
 
 #content-wrap {
