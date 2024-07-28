@@ -88,3 +88,9 @@ a {
 #account-options ul {
   display: flex;
 }
+
+#account-options ul li {
+  margin-right: 5px;
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
