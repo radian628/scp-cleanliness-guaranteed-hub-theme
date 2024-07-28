@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+#header {
+  background-image: url("https://scp-sandbox-3.wdfiles.com/local--files/theme%3Acleaning-services/logo.png");
+}
+
 #header h1::before {
   content: "SAFE CLEANUP PROFESSIONALS";
   color: #000000ff;
@@ -24,7 +28,6 @@
   color: #00000000;
   font-size: 48px;
   height: 1lh;
-  background-image: url("https://scp-sandbox-3.wdfiles.com/local--files/theme%3Acleaning-services/logo.png");
 }
 #header h2 {
   color: #00000000;
