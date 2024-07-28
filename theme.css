@@ -23,12 +23,12 @@
 #header h1 {
   color: #00000000;
   font-size: 48px;
-  height: 0;
+  height: 1lh;
 }
 #header h2 {
   color: #00000000;
   font-size: 24px;
-  height: 0;
+  height: 1lh;
 }
 
 html {
@@ -45,7 +45,7 @@ html {
 }
 
 #container {
-  padding: 10px;
+  padding: 5px;
 }
 
 #content-wrap {
