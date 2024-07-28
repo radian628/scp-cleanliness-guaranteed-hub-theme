@@ -226,9 +226,10 @@ a,
   border-bottom: 1px solid black;
 }
 
-.yui-nav li {
+:root .yui-nav li {
   background-color: #dddddd;
   border: 1px solid #888888;
+  padding: 5px;
 }
 
 .yui-nav li.selected {
@@ -251,10 +252,6 @@ a,
 
 :root .yui-nav {
   border: none;
-}
-
-.yui-nav li {
-  padding: 5px;
 }
 
 :root .yui-content {
