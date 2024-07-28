@@ -163,25 +163,6 @@ a,
   background-color: white;
 }
 
-.yui-navset {
-  border: 1px solid black;
-  padding: 5px;
-}
-
-.yui-nav {
-  border-bottom: 1px solid black;
-}
-
-.yui-nav li {
-  background-color: #dddddd;
-  border: 1px solid #888888;
-}
-
-.yui-nav li.selected {
-  background-color: black;
-  color: white;
-}
-
 .gay {
   animation-name: rainbow;
   animation-duration: 24s;
@@ -237,6 +218,23 @@ a,
   background-color: white;
 }
 
+.yui-navset {
+  border: 1px solid black;
+}
+
+.yui-nav {
+  border-bottom: 1px solid black;
+}
+
+.yui-nav li {
+  background-color: #dddddd;
+  border: 1px solid #888888;
+}
+
+.yui-nav li.selected {
+  background-color: black;
+  color: white;
+}
 .yui-navset li,
 :root .yui-navset a,
 :root .yui-navset em {
@@ -255,9 +253,14 @@ a,
   border: none;
 }
 
+.yui-nav li {
+  padding: 5px;
+}
+
 :root .yui-content {
   border: none;
   border-top: 1px solid black;
+  padding: 5px;
 }
 
 #page-title {
