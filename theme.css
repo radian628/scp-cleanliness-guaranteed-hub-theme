@@ -4,6 +4,7 @@
 
 .side-block.media:nth-child(1) {
   display: flex;
+  justify-content: center;
 }
 
 #header h1::before {
