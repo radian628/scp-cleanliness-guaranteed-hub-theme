@@ -251,11 +251,11 @@ a,
   border: none;
 }
 
-.yui-nav {
+:root .yui-nav {
   border: none;
 }
 
-.yui-content {
+:root .yui-content {
   border: none;
   border-top: 1px solid black;
 }
