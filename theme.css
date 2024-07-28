@@ -147,3 +147,22 @@ a {
   width: 20%;
   background-color: white;
 }
+
+.yui-navset {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.yui-nav {
+  border-bottom: 1px solid black;
+}
+
+.yui-nav li {
+  background-color: #dddddd;
+  border: 1px solid #888888;
+}
+
+.yui-nav li.selected {
+  background-color: black;
+  color: white;
+}
