@@ -58,3 +58,11 @@ html {
 a {
   color: #b01;
 }
+
+#top-bar {
+  display: flex;
+}
+
+#top-bar .top-bar ul {
+  list-style: none;
+}
