@@ -9,6 +9,9 @@
 
 #header {
   background-image: url("https://scp-sandbox-3.wdfiles.com/local--files/theme%3Acleaning-services/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
 }
 
 #header h1::before {
