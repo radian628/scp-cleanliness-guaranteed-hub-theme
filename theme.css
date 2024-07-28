@@ -227,6 +227,14 @@ a {
   border: none;
 }
 
+:root .yui-navset li {
+  border-left: 1px solid black;
+}
+
+.yui-navset li:nth-child(1) {
+  border: none;
+}
+
 #page-title {
   height: 0;
   margin: 0;
