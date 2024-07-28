@@ -1,0 +1,45 @@
+@import url("https://nu-scptheme.github.io/Black-Highlighter/stable/styles/normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+.side-block.media {
+  display: flex;
+}
+
+#header h1::before {
+  content: "SAFE CLEANUP PROFESSIONALS";
+  color: #000000ff;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+#header h2::before {
+  content: "Sanitize, Clean, Polish™";
+  color: #000000ff;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+#header h1 {
+  color: #00000000;
+  font-size: 48px;
+}
+#header h2 {
+  color: #00000000;
+  font-size: 24px;
+}
+
+#skrollr-body {
+  width: 900px;
+  border: 1px solid black;
+  background-color: #cccccc;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#html-body {
+  background-color: #aaaaaa;
+}
+
+#content-wrap {
+  display: flex;
+}
