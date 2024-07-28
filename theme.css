@@ -12,6 +12,16 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 100%;
+  padding: 5px;
+  background-color: #eeeedd;
+}
+
+#main-content {
+  margin: 5px;
+}
+
+#footer {
+  margin: 5px;
 }
 
 #header h1::before {
@@ -58,10 +68,6 @@ body {
   margin: auto;
   margin-top: 150px;
   margin-bottom: 150px;
-}
-
-#container {
-  padding: 5px;
 }
 
 #content-wrap {
