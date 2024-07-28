@@ -50,8 +50,14 @@
 }
 
 html {
-  background-color: #888888;
   font-family: sans-serif;
+  background: repeating-linear-gradient(
+    45deg,
+    black,
+    black 2.5%,
+    #333300 2.5%,
+    #333300 5%
+  );
 }
 
 body {
