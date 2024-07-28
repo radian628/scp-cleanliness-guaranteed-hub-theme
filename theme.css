@@ -88,6 +88,7 @@ body {
 
 a {
   color: #b01;
+  text-decoration: underline;
 }
 
 #search-top-box-form {
