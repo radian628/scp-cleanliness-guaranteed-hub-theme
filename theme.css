@@ -86,7 +86,8 @@ body {
   left: 0;
 }
 
-a {
+a,
+#top-bar a {
   color: #b01;
   text-decoration: underline;
 }
