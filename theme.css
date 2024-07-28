@@ -77,6 +77,12 @@ a {
   list-style: none;
 }
 
+#top-bar .top-bar ul li {
+  margin-right: 5px;
+  margin-left: 5px;
+  border-right: 1px solid black;
+}
+
 .mobile-top-bar {
   display: none;
 }
@@ -91,6 +97,6 @@ a {
 
 #account-options ul li {
   margin-right: 5px;
+  margin-left: 5px;
   border-right: 1px solid black;
-  padding-right: 5px;
 }
