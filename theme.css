@@ -79,6 +79,7 @@ body {
   left: -26%;
   transition: left 0.25s;
   max-height: 100%;
+  overflow: hidden;
 }
 
 #side-bar:hover {
