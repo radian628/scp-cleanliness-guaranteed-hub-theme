@@ -59,6 +59,10 @@ a {
   color: #b01;
 }
 
+#search-top-box-form {
+  display: flex;
+}
+
 #top-bar {
   display: flex;
 }
