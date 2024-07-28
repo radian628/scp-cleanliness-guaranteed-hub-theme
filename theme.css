@@ -72,6 +72,16 @@ body {
   flex-direction: column;
   display: flex;
   border: 1px solid black;
+  position: absolute;
+  width: 30%;
+  background-color: #bbbbbb;
+  top: 0;
+  left: -26%;
+  transition: left 0.25s;
+}
+
+#side-bar:hover {
+  left: 0;
 }
 
 a {
