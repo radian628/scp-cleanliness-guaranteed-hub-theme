@@ -92,7 +92,7 @@ a,
   text-decoration: underline;
 }
 
-#top-bar a {
+:root #top-bar a {
   border: none;
 }
 
