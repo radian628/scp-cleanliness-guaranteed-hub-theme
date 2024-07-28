@@ -33,6 +33,7 @@
 
 html {
   background-color: #aaaaaa;
+  font-family: sans-serif;
 }
 
 #skrollr-body {
@@ -78,4 +79,12 @@ a {
 
 .mobile-top-bar {
   display: none;
+}
+
+#login-status {
+  display: flex;
+}
+
+#account-options ul {
+  display: flex;
 }
