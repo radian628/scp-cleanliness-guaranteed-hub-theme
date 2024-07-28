@@ -221,3 +221,8 @@ a {
 .owindow {
   background-color: white;
 }
+
+.yui-navset li,
+.yui-navset a {
+  border: none;
+}
