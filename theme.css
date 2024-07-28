@@ -76,6 +76,6 @@ a {
   list-style: none;
 }
 
-#mobile-top-bar {
+.mobile-top-bar {
   display: none;
 }
