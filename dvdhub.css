@@ -9,16 +9,25 @@ body {
   background-image: none;
 }
 
-:root #header h1 {
+:root #header h1 a {
   color: transparent;
   height: 0;
 }
 
-:root #header h1::after {
+/* show "CLEANLINESS GUARANTEED" header */
+:root #header h1 a::after {
   content: "CLEANLINESS GUARANTEED*";
   color: white;
 }
 
+/* hide subtitle */
 :root #header h2 {
   display: none;
+}
+
+/* make all headers white */
+:root h1,
+:root h2,
+:root h3 {
+  color: white;
 }
