@@ -81,6 +81,14 @@ body {
   color: white;
 }
 
+/* remove relative positioning from containers */
+:root #main-content {
+  position: static;
+}
+:root #content-wrap {
+  position: static;
+}
+
 /* table of contents */
 #toc {
   background: none;
