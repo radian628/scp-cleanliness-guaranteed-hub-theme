@@ -1,6 +1,14 @@
-/* make page content full-width */
+/* remove ugly space below the header */
+:root #header {
+  padding-bottom: 0;
+}
+
 :root #main-content {
+  /* make page content full-width */
   max-width: 100vw;
+  /* background image */
+  background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
+  background-position: center;
 }
 
 /* make page title big and cool-looking */
@@ -15,6 +23,7 @@
   padding: 0;
   font-size: 48px;
   width: 500px;
+  color: white;
 }
 
 /* align rating module with rest of page */
