@@ -61,4 +61,5 @@
   /* show episodes on the right half */
   margin-left: 50%;
   width: 40%;
+  filter: drop-shadow(5px 5px 2px black);
 }
