@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-#page-content:nth-child(1) {
+#page-content > div:nth-child(1) {
   position: sticky;
   top: 20px;
 }
