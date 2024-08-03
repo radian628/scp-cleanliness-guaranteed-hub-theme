@@ -64,8 +64,9 @@
 .episodes {
   /* show episodes on the right half */
   position: relative;
-  width: 500px;
-  left: calc(100% - 520px);
+  --episodes-width: min(800px, 35%);
+  width: var(--episodes-width);
+  left: calc(var(--episodes-width) - 20px);
   /* make text more readable by giving it a shadow */
   filter: drop-shadow(5px 5px 2px black);
 }
