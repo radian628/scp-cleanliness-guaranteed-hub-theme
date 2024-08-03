@@ -65,10 +65,15 @@
   filter: drop-shadow(5px 5px 2px black);
 }
 
-:root .yui-navset {
-  border: none;
-}
-
 :root .yui-content {
   background: none;
+}
+
+:root .yui-nav {
+  position: sticky;
+  top: 150px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
 }
