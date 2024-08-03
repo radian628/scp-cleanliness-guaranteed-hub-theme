@@ -9,6 +9,8 @@
   /* background image */
   background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
   background-position: center;
+  /* make sticky content avoid being jostled */
+  padding-top: 20px;
 }
 
 /* make page title big and cool-looking */
