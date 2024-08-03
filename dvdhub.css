@@ -139,7 +139,7 @@ body {
 
 /* reposition and scale footer */
 #footer {
-  width: calc(100vw - var(--main-content-width) - 30px);
+  width: calc(100vw - var(--main-content-width) - 80px);
   position: fixed;
   bottom: 0;
   left: 0;
