@@ -26,6 +26,10 @@ body {
   margin-left: 30px;
   text-align: left;
 }
+:root #search-top-box input {
+  background-color: black;
+  border-radius: 0;
+}
 :root #top-bar {
   position: static;
   margin-left: 30px;
@@ -146,6 +150,9 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
+  /* make footer background stand out less */
+  background: none;
+  backdrop-filter: blur(5px);
 }
 
 :root #page-options-container {
@@ -183,4 +190,8 @@ body {
 
 :root .hovertip {
   background-color: black;
+}
+
+blockquote {
+  background-color: #12121288;
 }
