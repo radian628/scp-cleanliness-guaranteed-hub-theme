@@ -84,6 +84,11 @@ body {
 /* table of contents */
 #toc {
   background: none;
+  border: none;
+  position: absolute;
+  left: 30px;
+  top: 250px;
+  font-size: 24px;
 }
 
 /* put sidebar menu opener in bottom left */
@@ -92,7 +97,8 @@ body {
   bottom: 0.5em;
 }
 
-#episodes {
+/* position & style actual page content */
+.episodes {
   position: absolute;
   top: 0;
   right: 0;
