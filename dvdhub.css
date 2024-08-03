@@ -174,9 +174,9 @@ body {
   background-color: black;
 }
 
-:root .side-block {
+:root #side-bar .side-block {
   background-color: #121212;
 }
-:root .side-block.media {
+:root #side-bar .side-block.media {
   background-color: #121212;
 }
