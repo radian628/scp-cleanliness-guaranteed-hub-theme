@@ -81,10 +81,7 @@ body {
   color: white;
 }
 
-/* remove relative positioning from containers */
-:root #main-content {
-  position: static;
-}
+/* remove position: relative from containers */
 :root #content-wrap {
   position: static;
 }
