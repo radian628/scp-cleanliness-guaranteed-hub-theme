@@ -59,3 +59,9 @@ body {
 #toc {
   background: none;
 }
+
+/* put sidebar menu opener in bottom left */
+:root #top-bar .open-menu a {
+  top: unset;
+  bottom: 0.5em;
+}
