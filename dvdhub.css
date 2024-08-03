@@ -95,7 +95,8 @@ body {
   background: none;
   border: none;
   position: absolute;
-  left: calc(var(--main-content-width) * -1 - 30px);
+  right: calc(100vw - 415px);
+  width: 400px;
   top: 220px;
   font-size: 24px;
 }
