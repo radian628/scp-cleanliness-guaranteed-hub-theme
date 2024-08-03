@@ -1,0 +1,24 @@
+/* apply background to body */
+body {
+  background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
+  color: white;
+}
+
+/* Get rid of header background */
+:root div#container-wrap {
+  background-image: none;
+}
+
+:root #header h1 {
+  color: transparent;
+  height: 0;
+}
+
+:root #header h1::after {
+  content: "CLEANLINESS GUARANTEED*";
+  color: white;
+}
+
+:root #header h2 {
+  display: none;
+}
