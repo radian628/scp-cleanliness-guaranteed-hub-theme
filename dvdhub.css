@@ -25,6 +25,11 @@
   color: white;
 }
 
+/* force headers to be white */
+:root h1 {
+  color: white;
+}
+
 /* make page title big and cool-looking */
 #page-title {
   position: sticky;
