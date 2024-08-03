@@ -21,6 +21,8 @@
   background-attachment: fixed;
   /* make sticky content avoid being jostled */
   padding-top: 20px;
+  /* make text white by default */
+  color: white;
 }
 
 /* make page title big and cool-looking */
@@ -48,4 +50,10 @@
 :root #top-bar .open-menu a {
   top: unset;
   bottom: 0.5em;
+}
+
+.episodes {
+  /* show episodes on the right half */
+  margin-left: 50%;
+  width: 40%;
 }
