@@ -64,3 +64,11 @@
   /* make text more readable by giving it a shadow */
   filter: drop-shadow(5px 5px 2px black);
 }
+
+:root .yui-navset {
+  border: none;
+}
+
+:root .yui-content {
+  background: none;
+}
