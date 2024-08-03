@@ -17,6 +17,7 @@ body {
   color: transparent;
   height: 0;
   text-shadow: none;
+  line-height: unset;
 }
 
 :root #header h1 a span {
@@ -29,7 +30,6 @@ body {
 :root #header h1 a::after {
   content: "CLEANLINESS GUARANTEED*";
   color: white;
-  line-height: unset;
 }
 
 /* hide subtitle */
