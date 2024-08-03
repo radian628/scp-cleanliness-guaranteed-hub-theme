@@ -102,6 +102,10 @@
   color: white;
 }
 
+:root #toc a:hover::before {
+  content: "➤ ";
+}
+
 /* hide table of contents action bar and title */
 #toc-action-bar {
   display: none;
