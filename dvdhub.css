@@ -89,7 +89,7 @@
 }
 
 /* table of contents positioning */
-#page-content > table:nth-child(2) {
+#page-content > table:nth-child(1) {
   position: sticky;
   top: 130px;
   margin-top: -30px !important;
