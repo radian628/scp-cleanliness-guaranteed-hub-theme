@@ -88,6 +88,9 @@ body {
 :root #content-wrap {
   position: static;
 }
+:root #content-wrap-wrap {
+  position: static;
+}
 
 /* table of contents */
 #toc {
@@ -106,7 +109,7 @@ body {
 }
 
 /* position & style actual page content */
-.episodes {
+:root #main-content {
   position: absolute;
   top: 0;
   right: 0;
