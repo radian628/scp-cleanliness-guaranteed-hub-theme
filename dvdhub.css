@@ -19,6 +19,12 @@ body {
   text-shadow: none;
 }
 
+:root #header h1 a span {
+  width: 0;
+  height: 0;
+  display: block;
+}
+
 /* show "CLEANLINESS GUARANTEED" header */
 :root #header h1 a::after {
   content: "CLEANLINESS GUARANTEED*";
@@ -28,6 +34,12 @@ body {
 /* hide subtitle */
 :root #header h2 {
   display: none;
+}
+
+/* remove background image */
+:root #header {
+  background-image: none;
+  background: none;
 }
 
 /* make all headers white */
