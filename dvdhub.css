@@ -29,6 +29,7 @@ body {
 :root #header h1 a::after {
   content: "CLEANLINESS GUARANTEED*";
   color: white;
+  line-height: unset;
 }
 
 /* hide subtitle */
@@ -36,10 +37,15 @@ body {
   display: none;
 }
 
-/* remove background image */
 :root #header {
+  /* remove background image */
   background-image: none;
   background: none;
+  /* put header stuff in top left */
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* make all headers white */
