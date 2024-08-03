@@ -180,3 +180,7 @@ body {
 :root #side-bar .side-block.media {
   background-color: #121212;
 }
+
+:root .hovertip {
+  background-color: black;
+}
