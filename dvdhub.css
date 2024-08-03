@@ -161,3 +161,22 @@ body {
 :root #page-options-container a {
   color: white;
 }
+
+:root #edit-page-form {
+  position: absolute;
+  background-color: black;
+  border: 1px solid white;
+  padding: 20px;
+  left: 0;
+  z-index: 10;
+}
+:root #lock-info {
+  background-color: black;
+}
+
+:root .side-block {
+  background-color: #121212;
+}
+:root .side-block.media {
+  background-color: #121212;
+}
