@@ -92,7 +92,7 @@
 #page-content > table:nth-child(1) {
   position: sticky;
   top: 130px;
-  margin-top: -30px !important;
+  margin-top: 0px !important;
   display: block;
   height: 0;
 }
