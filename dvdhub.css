@@ -94,8 +94,12 @@
 /* table of contents */
 #toc {
   background: none;
-  color: white;
   font-size: 24px;
+  border: none;
+}
+
+:root #toc a {
+  color: white;
 }
 
 /* hide table of contents action bar and title */
