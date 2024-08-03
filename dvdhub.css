@@ -1,0 +1,6 @@
+#page-title {
+  position: sticky;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+}
