@@ -18,6 +18,7 @@
   background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   /* make sticky content avoid being jostled */
   padding-top: 20px;
 }
