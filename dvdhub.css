@@ -17,16 +17,21 @@ body {
   margin-left: 30px;
   font-size: 40px;
   /* make other header stuff actually display below it */
-  height: 140px;
+  height: 130px;
+  max-height: unset;
 }
 
 :root #search-top-box {
   position: static;
   margin-left: 30px;
+  text-align: left;
 }
 :root #top-bar {
   position: static;
   margin-left: 30px;
+}
+:root #top-bar ul {
+  float: unset;
 }
 :root #login-status {
   position: static;
