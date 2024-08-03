@@ -70,7 +70,7 @@ body {
   /* put header stuff in top left */
   width: 500px;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
 }
 
@@ -95,8 +95,8 @@ body {
   background: none;
   border: none;
   position: absolute;
-  right: calc(100vw - 415px);
-  width: 400px;
+  right: calc(100vw - 615px);
+  width: 600px;
   top: 220px;
   font-size: 24px;
 }
