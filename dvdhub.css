@@ -66,8 +66,7 @@
   position: relative;
   --episodes-width: min(800px, 40%);
   width: var(--episodes-width);
-  /* left: calc(100% - var(--episodes-width) - 40px); */
-  float: right;
+  left: calc(100% - var(--episodes-width) - 40px);
   background-color: #00000044;
   backdrop-filter: blur(5px);
   padding: 20px;
