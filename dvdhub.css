@@ -14,7 +14,8 @@ body {
 
 :root #header h1 {
   /* move header to left */
-  margin-left: 20px;
+  margin-left: 30px;
+  font-size: 40px;
 }
 
 /* get rid of existing header */
