@@ -3,9 +3,15 @@
   padding-bottom: 0;
 }
 
+/* make page content full-width */
+:root #content-wrap {
+  margin: 0;
+}
+
 :root #main-content {
   /* make page content full-width */
   max-width: 100vw;
+  width: 100vw;
   /* background image */
   background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
   background-position: center;
