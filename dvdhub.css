@@ -91,3 +91,13 @@ body {
   top: unset;
   bottom: 0.5em;
 }
+
+#episodes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(700px, 35%);
+  background-color: #00000066;
+  backdrop-filter: blur(5px);
+  padding: 30px;
+}
