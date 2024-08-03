@@ -149,13 +149,14 @@ body {
 }
 
 :root #page-options-container {
-  display: fixed;
+  position: fixed;
   right: calc(var(--main-content-width) + 80px);
   bottom: 3em;
   opacity: 0.5;
 }
 :root #page-options-container:hover {
   opacity: 1;
+  background-color: #00000088;
 }
 :root #page-options-container a {
   color: white;
