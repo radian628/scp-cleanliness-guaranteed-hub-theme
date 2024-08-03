@@ -20,7 +20,7 @@
   background-size: cover;
   background-attachment: fixed;
   /* make sticky content avoid being jostled */
-  padding-top: 20px;
+  padding-top: 40px;
   /* make text white by default */
   color: white;
 }
@@ -47,7 +47,6 @@
 
 /* align rating module with rest of page */
 #page-content > div:nth-child(1) {
-  position: sticky;
   top: 27px;
 }
 
