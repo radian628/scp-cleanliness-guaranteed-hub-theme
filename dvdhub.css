@@ -116,12 +116,12 @@ body {
 /* put sidebar menu opener in bottom left */
 :root #top-bar .open-menu a {
   top: unset;
-  bottom: 0.5em;
+  bottom: 1.8em;
 }
 
 /* position & style actual page content */
 :root {
-  --main-content-width: min(700px, 35vw);
+  --main-content-width: min(700px, 42vw);
 }
 :root #main-content {
   position: absolute;
@@ -130,6 +130,7 @@ body {
   background-color: #00000066;
   backdrop-filter: blur(5px);
   padding: 30px;
+  width: var(--main-content-width);
 }
 
 #page-title {
@@ -138,7 +139,7 @@ body {
 
 /* reposition and scale footer */
 #footer {
-  width: var(--main-content-width);
+  width: calc(100vw - var(--main-content-width) - 30px);
   position: fixed;
   bottom: 0;
   left: 0;
