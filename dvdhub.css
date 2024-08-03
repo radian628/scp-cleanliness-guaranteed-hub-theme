@@ -101,6 +101,18 @@ body {
   top: 250px;
   font-size: 24px;
 }
+#toc #toc-action-bar {
+  display: none;
+}
+#toc .title {
+  display: none;
+}
+#toc a {
+  color: white;
+}
+#toc a:hover::before {
+  content: "➤ ";
+}
 
 /* put sidebar menu opener in bottom left */
 :root #top-bar .open-menu a {
