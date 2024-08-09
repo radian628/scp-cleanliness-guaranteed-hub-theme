@@ -9,6 +9,7 @@
 
   #skrollr-body {
     background-color: #000b;
+    overflow-x: hidden;
   }
 
   :root #header {
@@ -32,5 +33,11 @@
 
   #toc {
     background: black;
+  }
+
+  :root:root h1,
+  :root:root h2,
+  :root:root h3 {
+    color: white;
   }
 }
