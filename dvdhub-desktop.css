@@ -49,6 +49,7 @@
   }
   #toc a {
     color: white;
+    white-space: nowrap;
   }
   #toc a:hover::before {
     content: "➤ ";
