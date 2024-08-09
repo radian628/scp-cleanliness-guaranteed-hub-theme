@@ -8,66 +8,6 @@
     background-attachment: fixed;
   }
 
-  /* Get rid of header background */
-  :root div#container-wrap {
-    background-image: none;
-  }
-
-  :root #header h1 {
-    /* move header to left */
-    margin-left: 30px;
-    font-size: 40px;
-    /* make other header stuff actually display below it */
-    height: 130px;
-    max-height: unset;
-  }
-
-  :root #search-top-box {
-    position: static;
-    margin-left: 30px;
-    text-align: left;
-  }
-  :root #search-top-box input {
-    background: black;
-    border-radius: 0;
-  }
-  :root #top-bar {
-    position: static;
-    margin-left: 30px;
-  }
-  :root #top-bar ul {
-    float: unset;
-  }
-  :root #login-status {
-    position: static;
-    margin-left: 30px;
-  }
-
-  /* get rid of existing header */
-  :root #header h1 a {
-    color: transparent;
-    text-shadow: none;
-    line-height: unset;
-    padding: 0;
-  }
-
-  :root #header h1 a span {
-    width: 0;
-    height: 0;
-    display: block;
-  }
-
-  /* show "CLEANLINESS GUARANTEED" header */
-  :root #header h1 a::after {
-    content: "CLEANLINESS GUARANTEED*";
-    color: white;
-  }
-
-  /* hide subtitle */
-  :root #header h2 {
-    display: none;
-  }
-
   :root #header {
     /* remove background image */
     background-image: none;

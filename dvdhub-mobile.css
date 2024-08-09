@@ -2,5 +2,8 @@
   body {
     background: url(https://scp-sandbox-3.wdfiles.com/local--files/collab%3Acleanliness-guaranteed-dvd-hub/Hallway01.png);
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
