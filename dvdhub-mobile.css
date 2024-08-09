@@ -29,4 +29,8 @@
     height: 90px;
     font-size: 38px;
   }
+
+  #toc {
+    background: black;
+  }
 }
