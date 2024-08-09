@@ -57,3 +57,11 @@
 :root #header h2 {
   display: none;
 }
+
+:root a,
+:root #page-title,
+:root h1,
+:root h2,
+:root h3 {
+  color: #fb5;
+}
