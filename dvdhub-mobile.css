@@ -17,11 +17,11 @@
     padding-top: 40px;
   }
 
-  :root #mobile-top-bar {
+  :root .mobile-top-bar {
     display: none;
   }
 
-  :root #top-bar {
+  :root:root .top-bar {
     display: block;
   }
 }
