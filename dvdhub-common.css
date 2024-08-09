@@ -75,13 +75,15 @@
   border: none;
   padding: 3px 10px;
 }
-:root:root .rateup {
+:root:root .rateup,
+:root:root .ratedown {
   background-color: black;
   border: none;
   color: #fb1;
   padding: 3px;
 }
-:root:root .rateup a {
+:root:root .rateup a,
+:root:root .ratedown a {
   color: #fb1;
 }
 :root:root .cancel {
@@ -92,9 +94,8 @@
   color: black;
   font-weight: bold;
 }
-:root .page-rate-widget-box .rateup a:hover {
-  background: none;
-}
+:root .page-rate-widget-box .rateup a:hover,
+:root .page-rate-widget-box .ratedown a:hover,
 :root .page-rate-widget-box .cancel a:hover {
   background: none;
 }
