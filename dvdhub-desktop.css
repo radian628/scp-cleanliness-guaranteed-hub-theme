@@ -150,4 +150,8 @@
   blockquote {
     background-color: #12121288;
   }
+
+  h2 {
+    margin-top: 200px;
+  }
 }
