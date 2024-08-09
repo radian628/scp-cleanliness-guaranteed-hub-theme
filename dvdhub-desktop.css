@@ -19,6 +19,18 @@
     left: 0;
   }
 
+  :root #search-top-box,
+  :root #top-bar,
+  :root #login-status {
+    opacity: 0.5;
+  }
+
+  :root #header:hover #search-top-box,
+  :root #header:hover #top-bar,
+  :root #header:hover #login-status {
+    opacity: 1;
+  }
+
   /* remove position: relative from containers */
   :root #main-content {
     position: static;
