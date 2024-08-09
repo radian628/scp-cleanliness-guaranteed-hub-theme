@@ -24,4 +24,9 @@
   :root:root .top-bar {
     display: block;
   }
+
+  :root:root #header h1 {
+    height: 90px;
+    font-size: 38px;
+  }
 }
