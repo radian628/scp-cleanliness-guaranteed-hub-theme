@@ -111,6 +111,10 @@
     right: calc(var(--main-content-width) + 80px);
     bottom: 3em;
     opacity: 0.5;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
   }
   :root #page-options-container:hover {
     opacity: 1;
