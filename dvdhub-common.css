@@ -69,26 +69,32 @@
 }
 
 /* rating module styles */
-:root .rate-points {
+:root:root .rate-points {
   background: #fb1;
   color: black;
   border: none;
   padding: 3px 10px;
 }
-:root .rateup {
+:root:root .rateup {
   background-color: black;
   border: none;
   color: #fb1;
   padding: 3px;
 }
-:root .rateup a {
+:root:root .rateup a {
   color: #fb1;
 }
-:root .cancel {
+:root:root .cancel {
   padding: 3px;
   background: #fb1;
 }
-:root .cancel a {
+:root:root .cancel a {
   color: black;
   font-weight: bold;
+}
+:root .page-rate-widget-box .rateup a:hover {
+  background: none;
+}
+:root .page-rate-widget-box .cancel a:hover {
+  background: none;
 }
