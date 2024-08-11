@@ -170,6 +170,7 @@
     height: 100vh;
     transform: translateX(calc(30px - 100%));
     transition: transform 0.25s;
+    overflow: scroll;
   }
 
   :root #action-area:hover {
