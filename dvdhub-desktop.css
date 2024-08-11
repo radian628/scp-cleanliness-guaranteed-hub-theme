@@ -6,6 +6,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
   }
 
   :root #header {
@@ -165,6 +166,13 @@
     width: unset;
     position: fixed;
     top: 0;
+    height: 100vh;
+    transform: translateY(calc(100vh - 20px));
+    transition: transform 0.25s;
+  }
+
+  :root #action-area:hover {
+    transform: translateY(0);
   }
 
   /* properly show page version info box */
