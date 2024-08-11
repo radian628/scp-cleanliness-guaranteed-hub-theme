@@ -166,4 +166,16 @@
     position: fixed;
     top: 0;
   }
+
+  /* properly show page version info box */
+  :root #page-version-info {
+    z-index: 4;
+    background-color: black;
+    right: 0;
+    transform: translateX(90%);
+    transition: transform 0.25s;
+  }
+  :root #page-version-info:hover {
+    transform: translateX(0);
+  }
 }
