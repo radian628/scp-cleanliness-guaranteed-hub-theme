@@ -125,7 +125,7 @@
   }
 
   :root #edit-page-form {
-    position: absolute;
+    position: fixed;
     background-color: black;
     border: 1px solid white;
     padding: 20px;
@@ -159,9 +159,9 @@
   :root #action-area {
     background: black;
     padding: 5px;
-    position: absolute;
     border: 1px solid white;
     z-index: 69;
     width: unset;
+    position: fixed;
   }
 }
