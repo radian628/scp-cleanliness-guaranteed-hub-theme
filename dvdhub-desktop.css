@@ -158,7 +158,7 @@
   }
 
   /* make history usable */
-  :root #action-area {
+  :root #history-form-1 {
     background: black;
     padding: 5px;
     border: 1px solid white;
@@ -173,7 +173,7 @@
     overflow: scroll;
   }
 
-  :root #action-area:hover {
+  :root #history-form-1:hover {
     transform: translateX(0);
   }
 
