@@ -94,6 +94,9 @@
   color: black;
   font-weight: bold;
 }
+:root .page-rate-widget-box {
+  text-shadow: none;
+}
 :root .page-rate-widget-box .rateup a:hover,
 :root .page-rate-widget-box .ratedown a:hover,
 :root .page-rate-widget-box .cancel a:hover {
