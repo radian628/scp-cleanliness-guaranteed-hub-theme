@@ -83,6 +83,7 @@
     --main-content-width: min(700px, 42vw);
   }
   .episodes {
+    text-shadow: 5px 5px 5px black;
     position: absolute;
     top: 0;
     right: 0;
