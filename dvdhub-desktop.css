@@ -62,7 +62,7 @@
   #toc a {
     color: white;
     white-space: nowrap;
-    text-shadow: 2px 2px 0px black;
+    text-shadow: 5px 5px 5px black;
   }
   #toc a:hover {
     text-decoration: none;
