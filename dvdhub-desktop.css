@@ -134,7 +134,7 @@
     left: 0;
     z-index: 10;
     top: 0;
-    max-height: 100vh;
+    max-height: 95vh;
     overflow: scroll;
   }
   :root #lock-info {
